@@ -17,6 +17,12 @@ export default function CharacterCard({data}) {
         <Typography gutterBottom variant="h5" component="div">
           {data.name}
         </Typography>
+        <Typography gutterBottom variant="h5" component="div">
+          {data.nickname}
+        </Typography>
+        <Typography gutterBottom variant="h5" component="div">
+          {data.birthday}
+        </Typography>
         <Typography variant="body2" color="text.secondary">
           {data.status}
         </Typography>

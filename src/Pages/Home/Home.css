@@ -1,0 +1,15 @@
+.Home {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	min-height: 100vh;
+	background: rgb(1, 41, 1);
+	background: linear-gradient(
+		90deg,
+		rgb(16, 99, 177) 28%,
+		rgb(194, 14, 14) 100%,
+		rgb(202, 11, 20) 100%,
+		rgb(172, 9, 9) 100%,
+		rgb(160, 14, 14) 100%
+	);
+}

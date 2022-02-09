@@ -1,9 +1,10 @@
 import React from 'react';
-import CharacterList from '../../Components/CharachterList/CharacterList';
+import CharacterList from '../../Components/ItemDetailContainer/ItemDetailContainer.js';
+import './Home.css'
 
 const Home = () => {
     return (
-    <div>
+    <div className='Home'>
         <CharacterList/>
     </div>
     );

@@ -11,6 +11,7 @@ import Contact from './Pages/Contact/Contact';
 import CharacterDetail from './Pages/CharacterDetail/CharacterDetail'
 
 const App = () => {
+
   return (
     <Router>   
     <div className="App">
